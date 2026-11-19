@@ -1,0 +1,39 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Processed data and generated files
+data/processed/
+*.log
+
+# Git
+.git/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Private project documents
+EMAIL_DRAFT.md
+EMAIL DRAFT.md
+
+# Local development files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
